@@ -31,16 +31,28 @@ img {
 	border: 2px solid #F0BC67;
 }*/
 
+.lightbox {
+	/*border: 3px solid white;*/
+	max-width: 1050px;
+	/*width: 60%;*/
+	height: auto;
+	/*padding: 1em;*/
+	/*justify-content: center;*/
+	margin-left: 18%;
+}
+
 .grille {
 	max-width: 1300px;
 	width: 80%;
 	height: auto;
-	margin: 30px auto;
+	/*margin: 30px auto;*/
 	/*border: 1px solid #000;*/
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 300px);
-	justify-content: center;
-	grid-gap: 15px;
+	grid-template-columns: repeat(3, 1fr);
+	/*justify-content: center;*/
+	grid-gap: 30px;
+	padding: 1em;
+	column-gap: 50px;
 }
 
 .grille_2 {
@@ -136,6 +148,8 @@ h5 {
 	margin-left: 7%;
 	margin-right: 1%;
 	color: #bbb;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .grille img {
