@@ -55,7 +55,7 @@ img {
 	column-gap: 50px;
 }
 
-.grille_2 {
+.grille2 {
 	max-width: 1300px;
 	width: 80%;
 	height: auto;
@@ -67,7 +67,36 @@ img {
 	grid-gap: 15px;
 }
 
+.grille3 {
+	max-width: 1300px;
+	width: 80%;
+	height: auto;
+	margin: 30px auto;
+	/*border: 1px solid #000;*/
+	display: grid;
+	grid-template-columns: repeat(2, 300px);
+	justify-content: center;
+	grid-gap: 15px;
+}
+
+.grille4 {
+	max-width: 1300px;
+	width: 80%;
+	height: auto;
+	margin: 30px auto;
+	/*border: 1px solid #000;*/
+	display: grid;
+	grid-template-columns: repeat(1, 300px);
+	justify-content: center;
+	grid-gap: 15px;
+}
+
 .grille .img 20231127_132609N {
+	width: 200px;
+	height: 150px;
+}
+
+.grille2 .img 20231127_132609N {
 	width: 200px;
 	height: 150px;
 }
@@ -95,7 +124,7 @@ iframe:hover {
 	transform: scale(1.1);
 }
 
-.grille_2 img {
+.grille2 img {
 	border-radius: 10px;
 	border: 2px solid #F0BC67;
 	width: 150px;
@@ -104,7 +133,33 @@ iframe:hover {
 	transition-duration: 1s;
 }
 
-.grille_2 img:hover {
+.grille2 img:hover {
+	transform: scale(1.1);
+}
+
+.grille3 img {
+	border-radius: 10px;
+	border: 2px solid #F0BC67;
+	width: 200px;
+	height: 200px;
+	/*margin: 5vh;*/
+	transition-duration: 1s;
+}
+
+.grille3 img:hover {
+	transform: scale(1.1);
+}
+
+.grille4 img {
+	border-radius: 10px;
+	border: 2px solid #F0BC67;
+	width: 200px;
+	height: 150px;
+	/*margin: 5vh;*/
+	transition-duration: 1s;
+}
+
+.grille4 img:hover {
 	transform: scale(1.1);
 }
 
@@ -119,7 +174,17 @@ iframe:hover {
 	z-index: -2;
 }
 
-.lightbox .grille_2 img {
+.lightbox .grille2 img {
+	border: 2px solid #F0BC67;
+	z-index: -2;
+}
+
+.lightbox .grille3 img {
+	border: 2px solid #F0BC67;
+	z-index: -2;
+}
+
+.lightbox .grille4 img {
 	border: 2px solid #F0BC67;
 	z-index: -2;
 }
@@ -132,7 +197,15 @@ iframe:hover {
 	z-index: -2;
 }
 
-.grille_2 {
+.grille2 {
+	z-index: -2;
+}
+
+.grille3 {
+	z-index: -2;
+}
+
+.grille4 {
 	z-index: -2;
 }
 
@@ -164,6 +237,51 @@ h5 {
 }
 
 .grille img couleur {
+	opacity: 0;
+}
+
+.grille2 img {
+	width: 300px;
+	height: 200px;
+	/*margin: 5vh;*/
+	transition-duration: 1s;
+}
+
+.grille2 img:hover {
+	transform: scale(1.1);
+}
+
+.grille2 img couleur {
+	opacity: 0;
+}
+
+.grille3 img {
+	width: 250px;
+	height: 250px;
+	/*margin: 5vh;*/
+	transition-duration: 1s;
+}
+
+.grille3 img:hover {
+	transform: scale(1.1);
+}
+
+.grille3 img couleur {
+	opacity: 0;
+}
+
+.grille4 img {
+	width: 200px;
+	height: 300px;
+	/*margin: 5vh;*/
+	transition-duration: 1s;
+}
+
+.grille4 img:hover {
+	transform: scale(1.1);
+}
+
+.grille4 img couleur {
 	opacity: 0;
 }
 
