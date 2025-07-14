@@ -118,10 +118,59 @@ body {
 .nav-bloc:hover  svg {
   fill: #f0bc67;
 }
+
+.bij {
+	transition-duration: 0.2s;
+	/*border: 2px solid green;*/
+	width: 25px;
+	height: 25px;
+	padding: 0;
+}
+
+.nav-block:hover .img2 {
+	opacity: 1;
+	transition:  0.2s ease-in-out ;
+}
+
+.nav-block:hover .img1 {
+	opacity: 0;
+	transition:  0.2s ease-in-out ;
+}
+
+.bij img {
+	position: absolute;
+	justify-content: center;
+	/*border: 2px solid red;*/
+}
+
+.bij:hover .img2 {
+	opacity: 1;
+	transition:  0.2s ;
+}
+
+.bij:hover .img1 {
+	opacity: 0;
+	transition:  0.2s ;
+}
+
+.img2 {
+	position: absolute;
+	/*left: -50%;*/
+	opacity: 0;
+	/*border: 5px solid blue;*/
+}
+
+.img1 {
+	position: absolute;
+	/*left: -50%;
+	opacity: 0;*/
+	/*border: 5px solid blue;*/
+}
+
 .sub-nav {
   padding: 0px;
   width: 200px;
-  height: 90%;
+  height: 90vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,10 +180,12 @@ body {
   /* Hidden at the left side */
   transform: translateX(-100%);
   transition: transform 0.2s ease-in-out;
+  /*border: 5px solid blue;*/
   /*border-right: 2px solid #000;
   border-left: 2px solid #000;*/
+  
   border-radius: 20px;
-  margin-top: 100%;
+  margin-top: 9vh;
 }
 .sub-nav h4 {
   display: flex;
@@ -143,16 +194,22 @@ body {
   background: #111;
   border-radius: 20px;
   margin-top: -8vh;
+  /*border: 5px solid red;*/
+  padding: 5px;
 }
 .sub-nav ul {
   list-style-type: none;
+  /*border: 2px solid black;*/
+  padding-top: 2.5vh;
 }
 .sub-nav li {
   padding: 15px 20px;
-  margin-top: 1vh;
+  /*margin-top: 1vh;*/
+  /*border: 2px solid white;*/
 }
 .sub-nav li:hover {
   background: rgba(160, 160, 160, 0.555);
+  border-radius: 20px;
 }
 .sub-nav li a {
    color: #f2f2f2;
@@ -173,7 +230,7 @@ body {
 	transform: translateX(-100%);
 	transition: transform 0.2s ease-in-out;
 	border-radius: 20px;
-	margin-top: 393%;
+	margin-top: 35.5vh;
 }
 
 .sub-nav-solo1 h4 {
@@ -182,7 +239,7 @@ body {
   align-items: center;
   background: none;
   border-radius: 20px;
-
+  padding-top: 1.5vh;
 }
 
 .sub-nav-solo1 ul {
@@ -221,7 +278,8 @@ body {
 	transform: translateX(-100%);
 	transition: transform 0.2s ease-in-out;
 	border-radius: 20px;
-	margin-top: 573%;
+	margin-top: 52.5vh;
+	/*border: 5px solid green;*/
 }
 
 .sub-nav-solo2 h4 {
@@ -230,6 +288,7 @@ body {
   align-items: center;
   background: none;
   border-radius: 20px;
+  padding-top: 1.25vh;
 
 }
 
@@ -302,7 +361,7 @@ h3 {
 }
 
 h4 {
-	font-size: 45px;
+	font-size: 30px;
 	font-family: "Chakra Petch", sans serif;
 	color: #F0BC67;
 }
